@@ -1,18 +1,24 @@
 buildscript {
 	repositories {
+		google()
 		mavenCentral()
+		maven { url 'https://api.xposed.info/' }
 	}
+
 	dependencies {
-		classpath 'com.android.tools.build:gradle:3.4.2'
+		// Use the latest stable version
+		classpath 'com.android.tools.build:gradle:8.7.3'
 	}
 }
 
 allprojects {
 	repositories {
+		google()
 		mavenCentral()
+		maven { url 'https://api.xposed.info/' }
 	}
 }
 
-task clean(type: Delete) {
+tasks.register('clean', Delete) {
 	delete rootProject.buildDir
 }
