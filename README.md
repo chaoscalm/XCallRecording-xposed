@@ -14,6 +14,6 @@ recording files are saved in:
 * `/sdcard/Music/Call Recordings` (Android 10 / LOS 17.1 and Android 11 / LOS 18.1)
 * `/sdcard/Recordings/Call recordings` (Android 15 / LOS 22.1)
 
-NOTE: extra setup required for LSPosed,
+NOTE: extra setup required for [LSPosed](https://github.com/JingMatrix/LSPosed),
 just enable this module and
 check the checkbox of Phone (com.android.dialer)
